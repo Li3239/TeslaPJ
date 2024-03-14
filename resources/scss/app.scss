@@ -1,4 +1,9 @@
-body{
-    margin:0;
-    background:red;
-}
+@import "./cart";
+@import "./checkout";
+@import "./footer";
+@import "./header";
+@import "./home";
+@import "./shop";
+@import "./singel-product";
+@import "./variables";
+@import "./commonstyles";
