@@ -5,6 +5,7 @@
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Browse our latest products",
             "heading_size": "h0"
@@ -12,6 +13,7 @@
         },
         "button": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify:\/\/collections\/all",
@@ -26,6 +28,7 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
@@ -41,6 +44,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -66,10 +70,191 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "video_eJ6WTp": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/1.mp4",
+        "video_url": "",
+        "cover_image": "shopify:\/\/shop_images\/ModelY-cover.jpg",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_mHe6Gw": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_8ikrF8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Model 3",
+            "heading_size": "h1"
+          }
+        },
+        "text_8g7cJf": {
+          "type": "text",
+          "settings": {
+            "text": "Företagsleasing från 4 272 kr\/mån*. <a href=\"\/products\/cybertruck-elevate-rundhalsad-troja\" title=\"Cybertruck Elevate rundhalsad tröja\">Mer information<\/a>",
+            "text_style": "body"
+          }
+        },
+        "buttons_Hig9gt": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Anpassad Beställning",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Provkör",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_8ikrF8",
+        "text_8g7cJf",
+        "buttons_Hig9gt"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sports-car-parked-in-barcelona.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_HhTxYt": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_nkMgMe": {
+          "type": "heading",
+          "settings": {
+            "heading": "Model S",
+            "heading_size": "h1"
+          }
+        },
+        "text_pXVfzz": {
+          "type": "text",
+          "settings": {
+            "text": "Upptäck lagerbilar",
+            "text_style": "body"
+          }
+        },
+        "buttons_LYWr9H": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Anpassad Beställning",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Provkör",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_nkMgMe",
+        "text_pXVfzz",
+        "buttons_LYWr9H"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/blue-vintage-car-parked-on-city-street.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_chBFPn": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_9VGcdy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Model X",
+            "heading_size": "h1"
+          }
+        },
+        "text_wpEMYA": {
+          "type": "text",
+          "settings": {
+            "text": "Upptäck lagerbilar",
+            "text_style": "body"
+          }
+        },
+        "buttons_gfxReL": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Anpassad Beställning",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Provkör",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_9VGcdy",
+        "text_wpEMYA",
+        "buttons_gfxReL"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ModelX.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "video_79fwMx": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/2.mp4",
+        "video_url": "",
+        "cover_image": "shopify:\/\/shop_images\/UppleveTesla-cover.jpg",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "video_eJ6WTp",
+    "image_banner_mHe6Gw",
+    "image_banner_HhTxYt",
+    "image_banner_chBFPn",
+    "video_79fwMx"
   ]
 }
