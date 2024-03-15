@@ -77,7 +77,7 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/Homepage-Model-Y-Desktop-NA.mp4",
+        "video": "shopify:\/\/files\/videos\/1.mp4",
         "video_url": "",
         "cover_image": "shopify:\/\/shop_images\/ModelY-cover.jpg",
         "description": "",
@@ -122,7 +122,7 @@
         "buttons_Hig9gt"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Model3.jpg",
+        "image": "shopify:\/\/shop_images\/sports-car-parked-in-barcelona.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "top-center",
@@ -170,7 +170,7 @@
         "buttons_LYWr9H"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ModelS.jpg",
+        "image": "shopify:\/\/shop_images\/blue-vintage-car-parked-on-city-street.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "top-center",
@@ -237,7 +237,7 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/UppleveTesla.mp4",
+        "video": "shopify:\/\/files\/videos\/2.mp4",
         "video_url": "",
         "cover_image": "shopify:\/\/shop_images\/UppleveTesla-cover.jpg",
         "description": "",
