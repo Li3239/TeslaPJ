@@ -6,9 +6,52 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_KLmYhe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_34ikjX": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_prpmip": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Provkör en Tesla i en butik nära dig. Förare måste ha giltigt körkort. För att köra Model S och Model X måste du ha haft ett giltigt körkort i minst sju år.<\/p>"
+          }
+        },
+        "button_CrADUU": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_34ikjX",
+        "text_prpmip",
+        "button_CrADUU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_KLmYhe"
   ]
 }
