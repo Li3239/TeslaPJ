@@ -4,8 +4,6 @@
   "sections": {
     "footer": {
       "type": "footer",
-    "footer": {
-      "type": "footer",
       "blocks": {
         "brand_information_JkCntd": {
           "type": "brand_information",
@@ -36,4 +34,4 @@
   "order": [
     "footer"
   ]
-}}
+}

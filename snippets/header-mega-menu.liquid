@@ -35,6 +35,15 @@
                   role="list"
                 >
                   {%- for childlink in link.links -%}
+                   {% if childlink.title contains 'https://' or childlink.title contains 'http://' %}
+                    {% assign img_url = childlink.title | split:'|' %}
+                    <li class="mega-menu-collection-img">
+                      <a href="/collections/{{ img_url[0] }}">
+                        <img src="{{ img_url[1] }}" alt="Collection Image">
+                      </a>
+                      <h5 class="mega-menu-title">{{ img_url[0] }}</h5>
+                    </li>
+                  {% else %}
                     <li>
                       <a
                         id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
@@ -65,6 +74,7 @@
                         </ul>
                       {%- endif -%}
                     </li>
+                    {% endif %}
                   {%- endfor -%}
                 </ul>
               </div>
