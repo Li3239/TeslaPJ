@@ -35,6 +35,7 @@
   {% endif %}
 >
 <label
+  style="background-image:url({{ value | append:'.png' | file_url }})"
   for="{{ id }}"
   title="{{ value }}"
   class="swatch-input__label{% if shape == 'square' %} swatch-input__label--square{% endif %}"

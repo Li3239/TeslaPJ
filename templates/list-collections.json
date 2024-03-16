@@ -1,17 +1,129 @@
 {
   "sections": {
+    "slideshow_wifdJ9": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_BHxFNH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-pixabay-45241.jpg",
+            "heading": "Reach for the stars",
+            "heading_size": "h1",
+            "subheading": "The Pinnacle of Comfort in Our Tents!",
+            "button_label": "Explore Now",
+            "link": "shopify:\/\/collections\/equipment",
+            "button_style_secondary": true,
+            "box_align": "top-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_cMgHkX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-federico-tomasoni-11855042.jpg",
+            "heading": "Every sunrise heralds a fresh start",
+            "heading_size": "h1",
+            "subheading": "Embrace It!",
+            "button_label": "Explore now",
+            "link": "shopify:\/\/collections\/all-products",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-4",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_BHxFNH",
+        "slide_cMgHkX"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "main": {
       "type": "main-list-collections",
       "settings": {
         "title": "Collections",
         "sort": "alphabetical",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "columns_mobile": "2"
+      }
+    },
+    "video_3jzKWt": {
+      "type": "video",
+      "settings": {
+        "heading": "Last Chance on Winter Collection",
+        "heading_size": "h0",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/pexels-anna-shvets-6286880 (2160p).mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "collage_pM3dc9": {
+      "type": "collage",
+      "blocks": {
+        "image_CGQEN8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-ron-lach-7959078.jpg"
+          }
+        },
+        "product_ytRNLf": {
+          "type": "product",
+          "settings": {
+            "product": "puffer-jacket",
+            "second_image": false
+          }
+        },
+        "collection_6PRecx": {
+          "type": "collection",
+          "settings": {
+            "collection": "men"
+          }
+        }
+      },
+      "block_order": [
+        "image_CGQEN8",
+        "product_ytRNLf",
+        "collection_6PRecx"
+      ],
+      "settings": {
+        "heading": "Explore Men's Collection",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main"
+    "slideshow_wifdJ9",
+    "main",
+    "video_3jzKWt",
+    "collage_pM3dc9"
   ]
 }
