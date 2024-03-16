@@ -8,13 +8,21 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Upplev Europas mest sålda bil 2023. Boka en provkörning av Model Y",
-            "link": "https:\/\/teslapj.myshopify.com\/pages\/boka-provkorning"
+            "text": "Free shipping over 1000kr",
+            "link": "https:\/\/teslapj.myshopify.com\/"
+          }
+        },
+        "announcement_yQG8BA": {
+          "type": "announcement",
+          "settings": {
+            "text": "30 days right of return",
+            "link": "https:\/\/teslapj.myshopify.com\/"
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_yQG8BA"
       ],
       "settings": {
         "color_scheme": "scheme-3",

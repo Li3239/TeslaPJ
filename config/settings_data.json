@@ -1,8 +1,6 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/TeslaLogo.png",
     "logo_width": 90,
-    "favicon": "shopify:\/\/shop_images\/TeslaFavicon.png",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -98,12 +96,12 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-3",
-    "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_headline": "<a href=\"https:\/\/teslapj.myshopify.com\/\" title=\"SherpaAdventure\">SherpaAdventure<\/a>",
+    "brand_description": "<p>Experience the essence of adventure with SherpaAdventure. Discover premium outdoor gear curated for the modern explorer.<\/p>",
     "brand_image_width": 100,
-    "social_facebook_link": "",
-    "social_instagram_link": "",
-    "social_youtube_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/",
+    "social_youtube_link": "https:\/\/www.youtube.com\/",
     "social_tiktok_link": "",
     "social_twitter_link": "",
     "social_snapchat_link": "",
@@ -111,14 +109,15 @@
     "social_tumblr_link": "",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
-    "predictive_search_show_vendor": false,
-    "predictive_search_show_price": false,
+    "predictive_search_show_vendor": true,
+    "predictive_search_show_price": true,
     "currency_code_enabled": true,
     "cart_type": "notification",
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-1",
+    "checkout_layout": "onepage",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -150,12 +149,12 @@
       },
       "scheme-2": {
         "settings": {
-          "background": "#f3f3f3",
+          "background": "rgba(0,0,0,0)",
           "background_gradient": "",
-          "text": "#121212",
+          "text": "#ffffff",
           "button": "#121212",
           "button_label": "#f3f3f3",
-          "secondary_button_label": "#121212",
+          "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
       },
@@ -172,7 +171,7 @@
       },
       "scheme-4": {
         "settings": {
-          "background": "#121212",
+          "background": "rgba(0,0,0,0)",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
