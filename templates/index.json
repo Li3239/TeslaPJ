@@ -242,6 +242,15 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "video_banner_f8hFXq": {
+      "type": "video-banner",
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/25841c2f3ad24a1ea8e68f8e999d4c8a.mp4",
+        "heading": "Clothing",
+        "button_text": "Popular Products",
+        "button_url": "shopify:\/\/collections\/all"
+      }
     }
   },
   "order": [
@@ -251,6 +260,7 @@
     "image_banner_mHe6Gw",
     "image_banner_HhTxYt",
     "image_banner_chBFPn",
-    "video_79fwMx"
+    "video_79fwMx",
+    "video_banner_f8hFXq"
   ]
 }
