@@ -79,7 +79,6 @@
         "enable_video_looping": true,
         "video": "shopify:\/\/files\/videos\/video1.mp4",
         "video_url": "",
-        "cover_image": "shopify:\/\/shop_images\/ModelY-cover.jpg",
         "description": "",
         "full_width": true,
         "color_scheme": "",
@@ -122,7 +121,7 @@
         "buttons_Hig9gt"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/sports-car-parked-in-barcelona.jpg",
+        "image": "shopify:\/\/shop_images\/pexels-wolfgang-weiser-16977519.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "top-center",
@@ -170,7 +169,6 @@
         "buttons_LYWr9H"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/blue-vintage-car-parked-on-city-street.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "top-center",
@@ -218,7 +216,6 @@
         "buttons_gfxReL"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ModelX.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "top-center",
@@ -239,7 +236,6 @@
         "enable_video_looping": true,
         "video": "shopify:\/\/files\/videos\/video2.mp4",
         "video_url": "",
-        "cover_image": "shopify:\/\/shop_images\/UppleveTesla-cover.jpg",
         "description": "",
         "full_width": true,
         "color_scheme": "",
