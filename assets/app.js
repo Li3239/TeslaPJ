@@ -1,4 +1,3 @@
-
 $(".responsive").slick({
   dots: true,
   infinite: false,
