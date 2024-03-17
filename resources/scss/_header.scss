@@ -1,23 +1,27 @@
 // setting for HOME page
 body.index_cover {
-    .utility-bar__grid {
-        height: 52px;
+    .utility-bar {
+        position: sticky;
 
-        .announcement-bar-slider {
-            display: flex;
+        .utility-bar__grid {
+            height: 52px;
 
-            .slider-button {
-                display: none;
-            }
+            .announcement-bar-slider {
+                display: flex;
 
-            .slideshow__slide {
-                flex: 1;
-                justify-content: space-between;
-                align-items: center;
+                .slider-button {
+                    display: none;
+                }
 
-                .announcement-bar__announcement {
-                    svg {
-                        display: none;
+                .slideshow__slide {
+                    flex: 1;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .announcement-bar__announcement {
+                        svg {
+                            display: none;
+                        }
                     }
                 }
             }
