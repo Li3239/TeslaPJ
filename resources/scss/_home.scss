@@ -1,0 +1,36 @@
+body.index_cover {
+
+    //image banner
+    .banner__content {
+        .banner__box {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%);
+            text-align: center;
+
+            h2.banner__heading {
+                margin-top: 50px;
+            }
+
+            .banner__buttons {
+                flex-wrap: nowrap !important;
+                position: absolute;
+                bottom: 50px;
+                left: 50%;
+                transform: translateX(-50%);
+                max-width: 50%;
+
+                .button {
+                    display: inline-flex;
+                    min-width: 22rem;
+                    margin: 20px 10px;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
