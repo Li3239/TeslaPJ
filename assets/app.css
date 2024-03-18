@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body.index_cover .utility-bar {
   position: sticky;
 }
@@ -70,6 +71,60 @@ body.index_cover .banner__content .banner__box .banner__buttons .button {
   margin: 20px 10px;
   padding: 10px 20px;
   text-decoration: none;
+}
+.shopify-section-template--17624737841388__custom_liquid_8H6RqA {
+  display: none;
+}
+.list-collections_wrapper div.shopify-section div.page-width .modal {
+  display: none; /* Dölj modalen som standard */
+  position: fixed; /* Positionera modalen överst på sidan */
+  z-index: 1000; /* Säkerställ att modalen är över andra element */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full bredd av fönstret */
+  height: 100%; /* Full höjd av fönstret */
+  overflow: auto; /* Aktivera rullningsfält om modalen är för stor */
+  background-color: rgba(0, 0, 0, 0.5); /* Halvtransparent svart bakgrund */
+  /* From https://css.glass */
+}
+.list-collections_wrapper div.shopify-section div.page-width .modal .modal-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #fefefe; /* Vit bakgrund för modalens innehåll */
+  margin: 15% auto; /* Centrera modalen vertikalt och lämna lite utrymme ovanför */
+  padding: 20px; /* Lägg till utrymme runt modalens innehåll */
+  border: 1px solid #888; /* Ram runt modalens innehåll */
+  width: 50%;
+  height: 300px; /* Bredden på modalens innehåll */
+  background: yellow;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(174, 173, 173, 0.1);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
+  border: 1px solid rgba(55, 55, 55, 0.27);
+}
+.list-collections_wrapper div.shopify-section div.page-width .modal .modal-content .close {
+  color: #111111; /* Grå färg för stängningsknappen */
+  float: right; /* Flytta knappen till höger */
+  font-size: 28px; /* Storlek på texten */
+  font-weight: bold; /* Fetstil för att göra knappen tydlig */
+}
+.list-collections_wrapper div.shopify-section div.page-width .modal .modal-content .close:hover {
+  color: #111111; /* Ändra färgen på knappen när man hovrar över eller fokuserar på den */
+  text-decoration: none; /* Ta bort understrykning från texten */
+  cursor: pointer;
+}
+.list-collections_wrapper div.shopify-section div.page-width .modal .modal-content h2 {
+  color: #111111;
+  font-size: 24px;
+  font-weight: 600;
+}
+.list-collections_wrapper div.shopify-section div.page-width .modal .modal-content p {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 600;
 }
 .mega-menu-collection-img {
   display: inline-block;
