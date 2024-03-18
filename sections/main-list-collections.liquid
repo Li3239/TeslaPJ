@@ -2,9 +2,19 @@
 {{ 'section-collection-list.css' | asset_url | stylesheet_tag }}
 
 <div class="page-width">
+  
   <h1 class="title title--primary inline-richtext{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {{ section.settings.title }}
   </h1>
+  <!-- Popup modal -->
+<div id="popupModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Special Sale Countdown</h2>
+        <p id="countdownTimer"></p>
+    </div>
+</div>
+
   {%- liquid
     case section.settings.sort
       when 'products_high', 'products_low'
