@@ -71,19 +71,16 @@
         "padding_bottom": 36
       }
     },
-    "video_eJ6WTp": {
-      "type": "video",
+    "video_banner_f8hFXq": {
+      "type": "video-banner",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/video1.mp4",
-        "video_url": "",
-        "description": "",
-        "full_width": true,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 36
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ad18cb65f7b04e68986ba9190d267d15.mp4",
+        "heading": "Activities",
+        "button_label_1": "Show More",
+        "button_url_1": "shopify:\/\/collections\/all",
+        "button_label_2": "Popular Products",
+        "button_url_2": "shopify:\/\/collections\/all",
+        "color_scheme": ""
       }
     },
     "image_banner_mHe6Gw": {
@@ -92,25 +89,25 @@
         "heading_8ikrF8": {
           "type": "heading",
           "settings": {
-            "heading": "Model 3",
+            "heading": "Clothing",
             "heading_size": "h1"
           }
         },
         "text_8g7cJf": {
           "type": "text",
           "settings": {
-            "text": "Företagsleasing från 4 272 kr\/mån*. <a href=\"\/products\/cybertruck-elevate-rundhalsad-troja\" title=\"Cybertruck Elevate rundhalsad tröja\">Mer information<\/a>",
+            "text": "",
             "text_style": "body"
           }
         },
         "buttons_Hig9gt": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Anpassad Beställning",
-            "button_link_1": "",
+            "button_label_1": "Read More",
+            "button_link_1": "shopify:\/\/collections",
             "button_style_secondary_1": false,
-            "button_label_2": "Provkör",
-            "button_link_2": "",
+            "button_label_2": "Buy Now",
+            "button_link_2": "shopify:\/\/collections\/all",
             "button_style_secondary_2": true
           }
         }
@@ -121,13 +118,13 @@
         "buttons_Hig9gt"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-wolfgang-weiser-16977519.jpg",
+        "image_2": "shopify:\/\/shop_images\/pexels-gantas-vaiciulenas-2423351.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -140,25 +137,25 @@
         "heading_nkMgMe": {
           "type": "heading",
           "settings": {
-            "heading": "Model S",
+            "heading": "Accsesories",
             "heading_size": "h1"
           }
         },
         "text_pXVfzz": {
           "type": "text",
           "settings": {
-            "text": "Upptäck lagerbilar",
+            "text": "",
             "text_style": "body"
           }
         },
         "buttons_LYWr9H": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Anpassad Beställning",
-            "button_link_1": "",
+            "button_label_1": "Read More",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
-            "button_label_2": "Provkör",
-            "button_link_2": "",
+            "button_label_2": "Buy Now",
+            "button_link_2": "shopify:\/\/collections\/accessories",
             "button_style_secondary_2": true
           }
         }
@@ -169,12 +166,13 @@
         "buttons_LYWr9H"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-alexander-paul-16881386.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -187,25 +185,25 @@
         "heading_9VGcdy": {
           "type": "heading",
           "settings": {
-            "heading": "Model X",
+            "heading": "Outlet",
             "heading_size": "h1"
           }
         },
         "text_wpEMYA": {
           "type": "text",
           "settings": {
-            "text": "Upptäck lagerbilar",
+            "text": "",
             "text_style": "body"
           }
         },
         "buttons_gfxReL": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Anpassad Beställning",
-            "button_link_1": "",
+            "button_label_1": "Read More",
+            "button_link_1": "shopify:\/\/collections",
             "button_style_secondary_1": false,
-            "button_label_2": "Provkör",
-            "button_link_2": "",
+            "button_label_2": "Buy Now",
+            "button_link_2": "shopify:\/\/collections\/all",
             "button_style_secondary_2": true
           }
         }
@@ -216,51 +214,39 @@
         "buttons_gfxReL"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-miroslav-stasevskij-2197902.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
     },
-    "video_79fwMx": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/video2.mp4",
-        "video_url": "",
-        "description": "",
-        "full_width": true,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "video_banner_f8hFXq": {
+    "video_banner_tnaPh9": {
       "type": "video-banner",
       "settings": {
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/25841c2f3ad24a1ea8e68f8e999d4c8a.mp4",
-        "heading": "Clothing",
-        "button_text": "Popular Products",
-        "button_url": "shopify:\/\/collections\/all"
+        "heading": "Enjoy Life More",
+        "button_label_1": "Show More",
+        "button_url_1": "shopify:\/\/collections\/all",
+        "button_label_2": "Popular Products",
+        "button_url_2": "shopify:\/\/collections\/all",
+        "color_scheme": "scheme-3"
       }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "video_eJ6WTp",
+    "video_banner_f8hFXq",
     "image_banner_mHe6Gw",
     "image_banner_HhTxYt",
     "image_banner_chBFPn",
-    "video_79fwMx",
-    "video_banner_f8hFXq"
+    "video_banner_tnaPh9"
   ]
 }
