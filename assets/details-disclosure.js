@@ -44,10 +44,8 @@ class HeaderMenu extends DetailsDisclosure {
     this.header.preventHide = this.mainDetailsToggle.open;
 
     if (this.mainDetailsToggle.hasAttribute('open')) {
-      //this.header.style.backgroundColor = 'white';
       this.header.classList.add('menu-background-white');
     } else {
-      this.header.style.backgroundColor = 'transparent';
       this.header.classList.remove('menu-background-white');
     }
 
