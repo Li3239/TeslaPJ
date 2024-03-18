@@ -102,5 +102,6 @@ $('#my-responsive-carousell').slick({
             }
         });
     
+
     });
     
