@@ -31,12 +31,16 @@ body.index_cover .header__icon--account img {
 body.collection_cover .header__icon--question,
 body.collection_cover .header__icon--world,
 body.collection_cover .header__icon--account,
+body.cart_cover .header__icon--question,
+body.cart_cover .header__icon--world,
+body.cart_cover .header__icon--account,
 body.list-collections_cover .header__icon--question,
 body.list-collections_cover .header__icon--world,
 body.list-collections_cover .header__icon--account {
   display: none;
 }
 body.collection_cover .announcement-bar-slider,
+body.cart_cover .announcement-bar-slider,
 body.list-collections_cover .announcement-bar-slider {
   display: none;
 }
