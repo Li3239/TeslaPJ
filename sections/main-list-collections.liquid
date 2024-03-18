@@ -25,7 +25,8 @@
   -%}
   {%- paginate collections by paginate_by -%}
     <ul
-      class="collection-list .responsive grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
+      id="my-responsive-carousell"
+      class="collection-list .my-responsive grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
       role="list"
     >
       {%- for collection in collections -%}
