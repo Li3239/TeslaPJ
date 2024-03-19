@@ -40,11 +40,6 @@ body.list-collections_cover .header__icon--world,
 body.list-collections_cover .header__icon--account {
   display: none;
 }
-body.collection_cover .announcement-bar-slider,
-body.cart_cover .announcement-bar-slider,
-body.list-collections_cover .announcement-bar-slider {
-  display: none;
-}
 body.index_cover .announcement-bar-section {
   position: sticky;
   top: 0;
@@ -86,6 +81,29 @@ body.index_cover .banner__content .banner__box .banner__buttons .button {
   margin: 20px 10px;
   padding: 10px 20px;
   text-decoration: none;
+}
+.menu-background-white {
+  background-color: white !important;
+}
+@media screen and (max-width: 749px) {
+  body.index_cover .banner__content .banner__box .banner__buttons {
+    justify-content: center;
+    flex-wrap: wrap !important;
+    bottom: 100px;
+  }
+  body.index_cover .banner__content .banner__box .banner__buttons .button {
+    padding: 0;
+    margin: 0;
+  }
+  body.index_cover .video-banner .banner__buttons {
+    justify-content: center;
+    flex-wrap: wrap !important;
+    bottom: 20px;
+  }
+  body.index_cover .video-banner .banner__buttons .button {
+    padding: 0;
+    margin: 0;
+  }
 }
 .shopify-section-template--17624737841388__custom_liquid_8H6RqA {
   display: none;
@@ -140,28 +158,6 @@ body.index_cover .banner__content .banner__box .banner__buttons .button {
   color: #000000;
   font-size: 24px;
   font-weight: 600;
-.menu-background-white {
-  background-color: white !important;
-}
-@media screen and (max-width: 749px) {
-  body.index_cover .banner__content .banner__box .banner__buttons {
-    justify-content: center;
-    flex-wrap: wrap !important;
-    bottom: 100px;
-  }
-  body.index_cover .banner__content .banner__box .banner__buttons .button {
-    padding: 0;
-    margin: 0;
-  }
-  body.index_cover .video-banner .banner__buttons {
-    justify-content: center;
-    flex-wrap: wrap !important;
-    bottom: 20px;
-  }
-  body.index_cover .video-banner .banner__buttons .button {
-    padding: 0;
-    margin: 0;
-  }
 }
 .mega-menu-collection-img {
   display: inline-block;
