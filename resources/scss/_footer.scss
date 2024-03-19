@@ -1,0 +1,158 @@
+.footer{
+    .footer__content-top {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .footer__blocks-wrapper {
+            width: 50%;
+            .footer-block {
+                margin-left: 0;
+                display: flex;
+                justify-content: left;
+                .footer-block__brand-info{
+                    text-align: left;
+                    width: 70%;
+                    .footer-block__image-wrapper{
+                        margin-left: 0;
+                        margin-right: 0;
+                        margin-bottom: 0;
+                    }
+                    .rte{
+                        margin-bottom: 20px;
+                        p{
+                            font-weight: 700;
+                            
+                        }
+                    }
+                    .list-social{
+                        justify-content: left;
+                    }
+                }
+            }
+        }
+        .footer-block--newsletter {
+            width: 50%;
+            justify-content: right;
+            align-items: flex-start;
+            margin-top: 8%;
+            .footer-block__heading{
+                text-align: right;
+            }
+            .newsletter-form{
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .footer__content-top {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .footer__blocks-wrapper {
+            width: 100% !important;
+            .footer-block {
+                margin-left: 0;
+                display: flex;
+                justify-content: center !important;
+                .footer-block__brand-info{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    text-align: center !important;
+                    align-items: center !important;
+                    width: 100% !important;
+                    .footer-block__image-wrapper{
+                        margin-left: 0;
+                        margin-right: 0 !important;
+                        margin-bottom: 0;
+                        width: 100% !important;
+                    }
+                    .rte{
+                        margin-bottom: 20px;
+                        p{
+                            font-weight: 400 !important;
+                            
+                        }
+                    }
+                    .list-social{
+                        justify-content:center !important;
+                    }
+                }
+            }
+        }
+        .footer-block--newsletter {
+            width: 100% !important;
+            justify-content: center !important;
+            align-items: flex-start;
+            margin-top: 8%;
+            .footer-block__heading{
+                text-align: center !important;
+            }
+            .newsletter-form{
+                margin-right: 0;
+            }
+        }
+    }
+  }
+  
+  
+  @media only screen and (max-width: 479px) {
+    .footer__content-top {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .footer__blocks-wrapper {
+            width: 100% !important;
+            .footer-block {
+                margin-left: 0;
+                display: flex;
+                justify-content: center !important;
+                .footer-block__brand-info{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    text-align: center !important;
+                    align-items: center !important;
+                    width: 100% !important;
+                    .footer-block__image-wrapper{
+                        margin-left: 0;
+                        margin-right: 0 !important;
+                        margin-bottom: 0;
+                        width: 100% !important;
+                    }
+                    .rte{
+                        margin-bottom: 20px;
+                        p{
+                            font-weight: 400 !important;
+                            
+                        }
+                    }
+                    .list-social{
+                        justify-content:center !important;
+                    }
+                }
+            }
+        }
+        .footer-block--newsletter {
+            width: 100% !important;
+            justify-content: center !important;
+            align-items: flex-start;
+            margin-top: 8%;
+            .footer-block__heading{
+                text-align: center !important;
+            }
+            .newsletter-form{
+                margin-right: 0;
+            }
+        }
+    }
+  }

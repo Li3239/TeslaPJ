@@ -1,0 +1,63 @@
+
+.collection_cover{
+
+    .collection_wrapper{
+    #shopify-section-template--17624738300140__product-grid{
+        div.color-scheme-1{
+            div{
+                .product-grid-container{
+                    .page-width{
+                        .gf-grid{
+                            .gf-controls-container{
+                                .gf-controls-search-form{
+                                    .gf-controls-search-input{
+                                        &:focus-visible{
+                                            box-shadow: none;
+                                            background:#e8e8e8;
+                                        }
+                                    }
+                                }
+                            }
+                            ul#gf-products{
+                                div{
+                                    border: 1px solid #e8e8e8 !important;
+                                    .spf-product-card{
+                                        .spf-product-card__inner{
+                                            a.open-quick-view{
+                                                top:26px;
+                                                border: 1px solid #e8e8e8;
+                                            }
+                                            .span.spf-product__label{
+                                                top:29px;
+                                            }
+                                            .spf-product__label-soldout{
+                                                background-color: #767575;
+                                                
+
+                                            }
+                                            .spf-product__info{
+                                                .spf-product-card__vendor{
+                                                    display: none;
+                                                }
+                                                .spf-product-card__title{
+                                                    font-weight: bold;
+
+                                                }
+                                                .spf-product-card__price-wrapper{
+                                                    .spf-product-card__price {
+                                                        font-weight: bold;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
