@@ -94,8 +94,7 @@ body.list-collections_cover .header__icon--account {
   display: none;
 }
 body.collection_cover .announcement-bar-slider,
-body.cart_cover .announcement-bar-slider,
-body.list-collections_cover .announcement-bar-slider {
+body.cart_cover .announcement-bar-slider {
   display: none;
 }
 body.index_cover .announcement-bar-section {
