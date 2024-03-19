@@ -1,3 +1,5 @@
+import './init-fullpage';
+
 /* $(document).ready(function() {
 $('#my-responsive-carousell').slick({
     dots: true,

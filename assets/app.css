@@ -1,4 +1,57 @@
 @charset "UTF-8";
+main.cart_wrapper {
+  display: flex;
+  width: calc(100% - 200px);
+  margin: auto;
+  padding-top: 50px;
+  max-width: 1400px;
+}
+main.cart_wrapper cart-items {
+  padding: 0;
+  width: 100%;
+}
+main.cart_wrapper cart-items .page-width {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: unset;
+}
+main.cart_wrapper cart-items .cart-items__heading--quantity,
+main.cart_wrapper cart-items .cart-item__quantity {
+  padding-left: 0 !important;
+}
+main.cart_wrapper .cart__footer-wrapper {
+  width: 40%;
+  margin-left: 50px;
+  padding-top: 80px !important;
+}
+main.cart_wrapper .cart__footer-wrapper .page-width {
+  max-width: unset;
+  padding-left: 0;
+  padding-right: 0;
+}
+main.cart_wrapper .cart__footer-wrapper .page-width .cart__blocks {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin: 0;
+  width: 100%;
+}
+main.cart_wrapper .cart__footer-wrapper .page-width .cart__blocks .totals {
+  display: flex;
+  justify-content: space-between;
+}
+main.cart_wrapper .cart__footer-wrapper .page-width .cart__blocks .totals > * {
+  font-size: 22px;
+}
+main.cart_wrapper .cart__footer-wrapper .page-width .cart__blocks .cart__checkout-button {
+  width: 100%;
+  height: 54px;
+  max-width: unset;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #444;
+}
 body.index_cover .utility-bar {
   position: sticky;
 }
@@ -38,6 +91,11 @@ body.cart_cover .header__icon--account,
 body.list-collections_cover .header__icon--question,
 body.list-collections_cover .header__icon--world,
 body.list-collections_cover .header__icon--account {
+  display: none;
+}
+body.collection_cover .announcement-bar-slider,
+body.cart_cover .announcement-bar-slider,
+body.list-collections_cover .announcement-bar-slider {
   display: none;
 }
 body.index_cover .announcement-bar-section {
@@ -81,6 +139,12 @@ body.index_cover .banner__content .banner__box .banner__buttons .button {
   margin: 20px 10px;
   padding: 10px 20px;
   text-decoration: none;
+}
+body.index_cover .fp-section {
+  height: auto !important;
+}
+body.index_cover .banner__heading {
+  margin-top: 100px;
 }
 .menu-background-white {
   background-color: white !important;

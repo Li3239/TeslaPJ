@@ -281,9 +281,16 @@
       }
     </script>
     <link href="{{ 'app.css' | asset_url }}" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ 'fullpage.css' | asset_url }}" rel="stylesheet" type="text/css" media="all">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+    
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer="defer"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer="defer"></script>
     <script src="{{ 'app.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'fullpage.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'fullpage.extensions.min.js' | asset_url }}" defer="defer"></script>
    
   </head>
 
@@ -301,7 +308,9 @@
     
 
     <main id="MainContent" class="content-for-layout focus-none {{ template.name }}_wrapper" role="main" tabindex="-1">
-      {{ content_for_layout }}
+      <div id="fullpage">
+        {{ content_for_layout }}
+      </div>
     </main>
 
     {% sections 'footer-group' %}
