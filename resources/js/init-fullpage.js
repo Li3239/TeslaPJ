@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         licenseKey: 'gplv3-license',
         fitToSection: true,
         autoScrolling: true,
-        scrollOverflow: true,
+        scrollOverflow: false,
         scrollingSpeed: 1000,
 
         onLeave: function(origin, destination, direction) {

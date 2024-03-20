@@ -1,5 +1,6 @@
 {
   "current": {
+    "logo": "shopify:\/\/shop_images\/SherpaAdventure_crop.png",
     "logo_width": 90,
     "type_header_font": "montserrat_n4",
     "heading_scale": 100,
@@ -96,8 +97,9 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-3",
-    "brand_headline": "<a href=\"https:\/\/teslapj.myshopify.com\/\" title=\"SherpaAdventure\">SherpaAdventure<\/a>",
+    "brand_headline": "",
     "brand_description": "<p>Experience the essence of adventure with SherpaAdventure. Discover premium outdoor gear curated for the modern explorer.<\/p>",
+    "brand_image": "shopify:\/\/shop_images\/SherpaAdventure_1.png",
     "brand_image_width": 100,
     "social_facebook_link": "https:\/\/www.facebook.com\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/",
@@ -157,6 +159,12 @@
           "customSearchTemplateLoader": "{%- capture searchTemplate -%}{% render 'globo.filter.search' %}{%- endcapture -%}{%- unless searchTemplate contains 'Liquid error' -%}<script id=\"gspfSearchResult\" type=\"template\/html\">{{- searchTemplate | replace: \"script>\", \"scripttag>\" -}}<\/script>{%- endunless -%}",
           "customPaginationTemplateLoader": "{%- capture paginationTemplate -%}{% render 'globo.filter.pagination' %}{%- endcapture -%}{%- unless paginationTemplate contains 'Liquid error' -%}<script id=\"gspfPagination\" type=\"template\/html\">{{- paginationTemplate | replace: \"script>\", \"scripttag>\" -}}<\/script>{%- endunless -%}",
           "customYMMTemplateLoader": "{%- capture YMMTemplate -%}{% render 'globo.filter.form' %}{%- endcapture -%}{%- unless YMMTemplate contains 'Liquid error' -%}<script id=\"gspfForm\" type=\"template\/html\">{{- YMMTemplate | replace: \"script>\", \"scripttag>\" -}}<\/script>{%- endunless -%}"
+        }
+      },
+      "14288002729265275678": {
+        "type": "shopify:\/\/apps\/go-product-page-gallery-zoom\/blocks\/app-embed\/00e2bd89-9dbb-4f36-8a7f-03768835bc78",
+        "disabled": false,
+        "settings": {
         }
       }
     },
