@@ -1,3 +1,9 @@
+body.cart_cover {
+    .shopify-section.shopify-section-group-header-group.section-header.shopify-section-header-sticky {
+        margin-bottom: 0;
+    }
+}
+
 main.cart_wrapper {
     display: flex;
     width: calc(100% - 200px);
