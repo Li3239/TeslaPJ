@@ -1,6 +1,5 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/SherpaAdventure_1.png",
     "logo_width": 90,
     "type_header_font": "montserrat_n4",
     "heading_scale": 100,
@@ -97,10 +96,9 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-3",
-    "brand_headline": "",
+    "brand_headline": "<a href=\"https:\/\/teslapj.myshopify.com\/\" title=\"SherpaAdventure\">SherpaAdventure<\/a>",
     "brand_description": "<p>Experience the essence of adventure with SherpaAdventure. Discover premium outdoor gear curated for the modern explorer.<\/p>",
-    "brand_image": "shopify:\/\/shop_images\/SherpaAdventure_1.png",
-    "brand_image_width": 200,
+    "brand_image_width": 100,
     "social_facebook_link": "https:\/\/www.facebook.com\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/",
     "social_youtube_link": "https:\/\/www.youtube.com\/",
