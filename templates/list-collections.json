@@ -55,6 +55,46 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "featured_collection_ECKUpQ": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Bestsellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-products",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_banner_x7raJx": {
+      "type": "video-banner",
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/06c0c9d80d3b4b62891813e1a9567976.mp4",
+        "heading": "Winter Collection Discounts Ending Soon!",
+        "button_label_1": "Show More",
+        "button_url_1": "shopify:\/\/collections\/all",
+        "button_label_2": "Winter Collection",
+        "button_url_2": "shopify:\/\/collections\/all",
+        "color_scheme": "scheme-4"
+      }
+    },
     "main": {
       "type": "main-list-collections",
       "settings": {
@@ -65,65 +105,73 @@
         "columns_mobile": "2"
       }
     },
-    "video_3jzKWt": {
-      "type": "video",
+    "video_banner_fM3MDT": {
+      "type": "video-banner",
       "settings": {
-        "heading": "Last Chance on Winter Collection",
-        "heading_size": "h0",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/pexels-anna-shvets-6286880 (2160p).mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": true,
-        "color_scheme": "scheme-2",
-        "padding_top": 0,
-        "padding_bottom": 36
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9bfe9c559b7049828af571425c1497a7.mp4",
+        "heading": "Let nothing stop you!",
+        "button_label_1": "Show More",
+        "button_url_1": "shopify:\/\/collections\/all",
+        "button_label_2": "Accessories",
+        "button_url_2": "shopify:\/\/collections\/all",
+        "color_scheme": "scheme-4"
       }
     },
-    "collage_pM3dc9": {
-      "type": "collage",
+    "image_banner_pQW6qE": {
+      "type": "image-banner",
       "blocks": {
-        "image_CGQEN8": {
-          "type": "image",
+        "heading_Q7xbnP": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-ron-lach-7959078.jpg"
+            "heading": "New in Kids Collection",
+            "heading_size": "h1"
           }
         },
-        "product_ytRNLf": {
-          "type": "product",
+        "text_fFCQHB": {
+          "type": "text",
           "settings": {
-            "product": "puffer-jacket",
-            "second_image": false
+            "text": "Gear Up for the Outdoors: Explore Our Latest Kids Outdoor Collection!",
+            "text_style": "body"
           }
         },
-        "collection_6PRecx": {
-          "type": "collection",
+        "buttons_zGGicY": {
+          "type": "buttons",
           "settings": {
-            "collection": "men"
+            "button_label_1": "Explore More",
+            "button_link_1": "shopify:\/\/collections\/kids",
+            "button_style_secondary_1": false,
+            "button_label_2": "Shop Now",
+            "button_link_2": "shopify:\/\/collections\/kids",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "image_CGQEN8",
-        "product_ytRNLf",
-        "collection_6PRecx"
+        "heading_Q7xbnP",
+        "text_fFCQHB",
+        "buttons_zGGicY"
       ],
       "settings": {
-        "heading": "Explore Men's Collection",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 36
+        "image": "shopify:\/\/shop_images\/pexels-cottonbro-studio-9292811.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
     "slideshow_wifdJ9",
+    "featured_collection_ECKUpQ",
+    "video_banner_x7raJx",
     "main",
-    "video_3jzKWt",
-    "collage_pM3dc9"
+    "video_banner_fM3MDT",
+    "image_banner_pQW6qE"
   ]
 }

@@ -1,6 +1,9 @@
 .shopify-section-template--17624737841388__custom_liquid_8H6RqA{
     display: none;
 }
+
+
+
 .list-collections_cover{
     .shopify-section-header-sticky{
         margin-bottom: 0;
@@ -8,7 +11,11 @@
 .list-collections_wrapper{
     
     div.shopify-section{
-        
+        slideshow-component.slider-mobile-gutter {
+            div.slideshow__controls{
+                border: none;
+            }
+        }
             div.page-width{
                 .modal {
                     display: none; 

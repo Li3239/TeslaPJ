@@ -4,20 +4,9 @@
   "sections": {
     "footer": {
       "type": "footer",
-      "blocks": {
-        "brand_information_JkCntd": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": true
-          }
-        }
-      },
-      "block_order": [
-        "brand_information_JkCntd"
-      ],
       "settings": {
         "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": false,
@@ -26,7 +15,7 @@
         "payment_enable": true,
         "show_policy": true,
         "margin_top": 0,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     }
