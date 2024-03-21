@@ -77,9 +77,9 @@
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ad18cb65f7b04e68986ba9190d267d15.mp4",
         "heading": "Activities",
         "button_label_1": "Show More",
-        "button_url_1": "shopify:\/\/collections\/all",
+        "button_url_1": "shopify:\/\/collections\/all-products",
         "button_label_2": "Popular Products",
-        "button_url_2": "shopify:\/\/collections\/all",
+        "button_url_2": "shopify:\/\/products\/accent-t-shirt",
         "color_scheme": ""
       }
     },
@@ -166,7 +166,7 @@
         "buttons_LYWr9H"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-alexander-paul-16881386.jpg",
+        "image": "shopify:\/\/shop_images\/pexels-susanne-jutzeler-sujufoto-1292006.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "top-center",

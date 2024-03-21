@@ -36,6 +36,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".header {padding-left: 0; padding-right: 0;}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
@@ -44,7 +47,7 @@
         "show_line_separator": true,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
-        "enable_country_selector": true,
+        "enable_country_selector": false,
         "enable_language_selector": true,
         "mobile_logo_position": "center",
         "margin_bottom": 64,
