@@ -36,6 +36,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".header{padding-left:0; padding-right:0;}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",

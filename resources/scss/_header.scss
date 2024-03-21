@@ -67,3 +67,18 @@ body.product_cover {
         display: none;
     }
 }
+
+sticky-header.header-wrapper{
+    header.header{
+    max-width: 1690px;
+    display: flex;
+    justify-content: space-between;
+    padding-left:0;
+    padding-right:0;
+    margin:0 1.5rem;
+    .header__inline-menu {
+        margin-left: 7%;
+      }
+    }
+    
+}
