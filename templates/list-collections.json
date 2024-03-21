@@ -57,6 +57,9 @@
     },
     "featured_collection_ECKUpQ": {
       "type": "featured-collection",
+      "custom_css": [
+        ".collection__title {padding: 0 0rem;}"
+      ],
       "settings": {
         "title": "Bestsellers",
         "heading_size": "h1",
@@ -150,6 +153,10 @@
         "heading_Q7xbnP",
         "text_fFCQHB",
         "buttons_zGGicY"
+      ],
+      "custom_css": [
+        ".button {padding-left: 0; padding-right: 0;}",
+        "@media screen and (max-width: 450px) {.button {padding-left: 0; padding-right: 0;}}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-cottonbro-studio-9292811.jpg",

@@ -2,7 +2,10 @@
     display: none;
 }
 
-
+.collection__title{
+    padding:0 0rem;
+    margin:0 1.5rem;
+}
 
 .list-collections_cover{
     .shopify-section-header-sticky{
@@ -17,6 +20,10 @@
             }
         }
             div.page-width{
+                max-width: 1690px;
+                margin:0 1.5rem;
+                padding-left:0;
+                padding-right:0;
                 .modal {
                     display: none; 
                     position: fixed; 
@@ -80,3 +87,35 @@
 }
 
 }
+
+@media screen and (max-width: 450px) {
+    .list-collections_wrapper{
+        .shopify-section{
+    .content-container {
+        .video-banner-content{
+            .banner__buttons{
+                justify-content: center;
+                .button{
+                     width: 15rem;
+                     margin: 5px 10px;
+                }
+                /* .button--primary{
+                
+                min-width: 15rem;
+                margin: 10px 10px;
+                padding: 10px 20px;
+                text-decoration: none;
+                }
+                .button--secondary{
+                
+                min-width: 12rem;
+                margin: 10px 10px;
+                padding: 10px 20px;
+                text-decoration: none;
+                } */
+            }
+        }
+    }
+    }
+    }
+  }

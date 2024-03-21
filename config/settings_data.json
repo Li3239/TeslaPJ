@@ -121,7 +121,7 @@
     "cart_color_scheme": "scheme-1",
     "checkout_logo_image": "shopify:\/\/shop_images\/SherpaAdventure_1.png",
     "checkout_logo_size": "large",
-    "checkout_sidebar_background_color": "#eeeefe",
+    "checkout_sidebar_background_color": "#f7f7ff",
     "checkout_heading_font": "Roboto",
     "checkout_body_font": "Roboto",
     "checkout_accent_color": "#4f69ce",
