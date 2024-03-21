@@ -104,9 +104,9 @@ body.index_cover .header__icon--cart {
   display: none;
 }
 
-body.index_cover .header__icon--question img,
-body.index_cover .header__icon--world img,
-body.index_cover .header__icon--account img {
+body.index_cover .header__icon--question svg,
+body.index_cover .header__icon--world svg,
+body.index_cover .header__icon--account svg {
   width: 2rem;
   height: 2rem;
 }
@@ -195,12 +195,8 @@ body.index_cover .banner__content .banner__box .banner__buttons .button {
   text-decoration: none;
 }
 
-body.index_cover .fp-section {
+body.index_cover .section {
   height: auto !important;
-}
-
-body.index_cover .banner__heading {
-  margin-top: 100px;
 }
 
 .menu-background-white {
@@ -225,6 +221,12 @@ body.index_cover .banner__heading {
   body.index_cover .video-banner .banner__buttons .button {
     padding: 0;
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  body.index_cover section {
+    min-height: 100vh;
   }
 }
 

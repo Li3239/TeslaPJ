@@ -1,49 +1,77 @@
 document.addEventListener("DOMContentLoaded", function() {
-  var elements = document.querySelectorAll(".shopify-section");
-  elements.forEach(function(el) {
-    if (el.id.includes("__video_banner_") && !el.classList.contains("section")) {
-      el.classList.add("section");
-    }
-  });
-  new fullpage("#fullpage", {
-    licenseKey: "gplv3-license",
-    fitToSection: true,
-    autoScrolling: true,
-    scrollOverflow: false,
-    scrollingSpeed: 1e3,
-    onLeave: function(origin, destination, direction) {
-      var colors = ["black", "white", "black", "black", "white"];
-      var header_heading = document.querySelector(".header__heading-link .h2");
-      if (header_heading) {
-        header_heading.style.color = colors[destination.index];
+  var screenWidthThreshold = 750;
+  if (window.innerWidth > screenWidthThreshold) {
+    var elements = document.querySelectorAll(".shopify-section");
+    elements.forEach(function(el) {
+      if (el.id.includes("__video_banner_") && !el.classList.contains("section")) {
+        el.classList.add("section");
       }
-      var header_heading_spans = document.querySelectorAll(".header__inline-menu .list-menu .header__menu-item span");
-      header_heading_spans.forEach(function(span) {
-        span.style.color = colors[destination.index];
-      });
-      var header_heading_svgs = document.querySelectorAll(".header__inline-menu .list-menu .header__menu-item svg");
-      header_heading_svgs.forEach(function(svg) {
-        svg.style.color = colors[destination.index];
-      });
-      var locationSpan = document.querySelector(".header__icons .disclosure__button span");
-      if (locationSpan) {
-        locationSpan.style.color = colors[destination.index];
+    });
+    new fullpage("#fullpage", {
+      licenseKey: "gplv3-license",
+      fitToSection: true,
+      autoScrolling: true,
+      scrollOverflow: true,
+      // important!!! suitable for section which is higher then screen height
+      autoHeight: true,
+      // Suitable for sections with different height
+      scrollingSpeed: 1e3,
+      keyboardScrolling: true,
+      // fixedElements: 'body.index_cover.header-wrapper, body.index_cover.announcement-bar-section',
+      onLeave: function(origin, destination, direction) {
+        console.log(`Leaving section ${origin.index + 1} height = ${origin.item.offsetHeight}, heading ${direction} to section ${destination.index + 1}  height = ${destination.item.offsetHeight}`);
+        var colors = ["black", "white", "white", "black", "white"];
+        var logo = document.querySelector(".header__heading-logo-wrapper img");
+        if (logo) {
+          logo.style.color = colors[destination.index];
+          if (colors[destination.index] === "white") {
+            logo.src = "//teslapj.myshopify.com/cdn/shop/files/SherpaAdventure_2.png?v=1711048180&amp;width=600";
+            logo.srcset = "//teslapj.myshopify.com/cdn/shop/files/SherpaAdventure_2.png?v=1711048180&amp;width=90 90w, //teslapj.myshopify.com/cdn/shop/files/SherpaAdventure_2.png?v=1711048180&amp;width=135 135w, //teslapj.myshopify.com/cdn/shop/files/SherpaAdventure_2.png?v=1711048180&amp;width=180 180w";
+          } else {
+            logo.src = "//teslapj.myshopify.com/cdn/shop/files/SherpaAdventure_crop.png?v=1710930827&amp;width=600";
+            logo.srcset = "//teslapj.myshopify.com/cdn/shop/files/SherpaAdventure_crop.png?v=1710930827&amp;width=90 90w, //teslapj.myshopify.com/cdn/shop/files/SherpaAdventure_crop.png?v=1710930827&amp;width=135 135w, //teslapj.myshopify.com/cdn/shop/files/SherpaAdventure_crop.png?v=1710930827&amp;width=180 180w";
+          }
+        }
+        var header_heading_spans = document.querySelectorAll(".header__inline-menu .list-menu .header__menu-item span");
+        header_heading_spans.forEach(function(span) {
+          span.style.color = colors[destination.index];
+        });
+        var header_heading_svgs = document.querySelectorAll(".header__inline-menu .list-menu .header__menu-item svg");
+        header_heading_svgs.forEach(function(svg) {
+          svg.style.color = colors[destination.index];
+        });
+        var locationSpan = document.querySelector(".header__icons .disclosure__button span");
+        if (locationSpan) {
+          locationSpan.style.color = colors[destination.index];
+        }
+        var locationSvg = document.querySelector(".header__icons .disclosure__button svg");
+        if (locationSvg) {
+          locationSvg.style.color = colors[destination.index];
+        }
+        var iconSearch = document.querySelector(".header__icons .header__search svg");
+        if (iconSearch) {
+          iconSearch.style.color = colors[destination.index];
+        }
+        var iconQuestion = document.querySelector(".header__icons .header__icon--question svg");
+        if (iconQuestion) {
+          iconQuestion.style.color = colors[destination.index];
+        }
+        var worldQuestion = document.querySelector(".header__icons .header__icon--world svg");
+        if (worldQuestion) {
+          worldQuestion.style.color = colors[destination.index];
+        }
+        var accountQuestion = document.querySelector(".header__icons .header__icon--account svg");
+        if (accountQuestion) {
+          accountQuestion.style.color = colors[destination.index];
+        }
+      },
+      afterRender: function() {
+        console.log("fullPage.js has rendered the page");
+      },
+      afterResize: function(width, height) {
       }
-      var locationSvg = document.querySelector(".header__icons .disclosure__button svg");
-      if (locationSvg) {
-        locationSvg.style.color = colors[destination.index];
-      }
-      var iconSearch = document.querySelector(".header__icons .header__search svg");
-      if (iconSearch) {
-        iconSearch.style.color = colors[destination.index];
-      }
-    },
-    afterRender: function() {
-      console.log("fullPage.js has rendered the page");
-    },
-    afterResize: function(width, height) {
-    }
-  });
+    });
+  }
 });
 document.addEventListener("DOMContentLoaded", function() {
   function openPopup() {
