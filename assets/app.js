@@ -25,11 +25,11 @@ document.addEventListener("DOMContentLoaded", function() {
         if (logo) {
           logo.style.color = colors[destination.index];
           if (colors[destination.index] === "white") {
-            logo.src = "//teslapj.myshopify.com/cdn/shop/files/SherpaAdventure_2.png?v=1711048180&amp;width=600";
-            logo.srcset = "//teslapj.myshopify.com/cdn/shop/files/SherpaAdventure_2.png?v=1711048180&amp;width=90 90w, //teslapj.myshopify.com/cdn/shop/files/SherpaAdventure_2.png?v=1711048180&amp;width=135 135w, //teslapj.myshopify.com/cdn/shop/files/SherpaAdventure_2.png?v=1711048180&amp;width=180 180w";
+            logo.src = "//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_2.png?v=1711091451&width=600";
+            logo.srcset = "//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_2.png?v=1711091451&width=90 90w,//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_2.png?v=1711091451&width=135 135w,//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_2.png?v=1711091451&width=135 180w";
           } else {
-            logo.src = "//teslapj.myshopify.com/cdn/shop/files/SherpaAdventure_crop.png?v=1710930827&amp;width=600";
-            logo.srcset = "//teslapj.myshopify.com/cdn/shop/files/SherpaAdventure_crop.png?v=1710930827&amp;width=90 90w, //teslapj.myshopify.com/cdn/shop/files/SherpaAdventure_crop.png?v=1710930827&amp;width=135 135w, //teslapj.myshopify.com/cdn/shop/files/SherpaAdventure_crop.png?v=1710930827&amp;width=180 180w";
+            logo.src = "//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_crop.png?v=1710930827&width=600";
+            logo.srcset = "//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_crop.png?v=1710930827&width=90 90w,//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_crop.png?v=1710930827&width=135 135w, //cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_crop.png?v=1710930827&width=180 180w";
           }
         }
         var header_heading_spans = document.querySelectorAll(".header__inline-menu .list-menu .header__menu-item span");
