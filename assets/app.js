@@ -1,3 +1,4 @@
+var colors = ["black", "white", "white", "black", "white"];
 document.addEventListener("DOMContentLoaded", function() {
   var screenWidthThreshold = 750;
   if (window.innerWidth > screenWidthThreshold) {
@@ -20,50 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
       // fixedElements: 'body.index_cover.header-wrapper, body.index_cover.announcement-bar-section',
       onLeave: function(origin, destination, direction) {
         console.log(`Leaving section ${origin.index + 1} height = ${origin.item.offsetHeight}, heading ${direction} to section ${destination.index + 1}  height = ${destination.item.offsetHeight}`);
-        var colors = ["black", "white", "white", "black", "white"];
-        var logo = document.querySelector(".header__heading-logo-wrapper img");
-        if (logo) {
-          logo.style.color = colors[destination.index];
-          if (colors[destination.index] === "white") {
-            logo.src = "//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_2.png?v=1711091451&width=600";
-            logo.srcset = "//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_2.png?v=1711091451&width=90 90w,//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_2.png?v=1711091451&width=135 135w,//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_2.png?v=1711091451&width=135 180w";
-          } else {
-            logo.src = "//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_crop.png?v=1710930827&width=600";
-            logo.srcset = "//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_crop.png?v=1710930827&width=90 90w,//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_crop.png?v=1710930827&width=135 135w, //cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_crop.png?v=1710930827&width=180 180w";
-          }
-        }
-        var header_heading_spans = document.querySelectorAll(".header__inline-menu .list-menu .header__menu-item span");
-        header_heading_spans.forEach(function(span) {
-          span.style.color = colors[destination.index];
-        });
-        var header_heading_svgs = document.querySelectorAll(".header__inline-menu .list-menu .header__menu-item svg");
-        header_heading_svgs.forEach(function(svg) {
-          svg.style.color = colors[destination.index];
-        });
-        var locationSpan = document.querySelector(".header__icons .disclosure__button span");
-        if (locationSpan) {
-          locationSpan.style.color = colors[destination.index];
-        }
-        var locationSvg = document.querySelector(".header__icons .disclosure__button svg");
-        if (locationSvg) {
-          locationSvg.style.color = colors[destination.index];
-        }
-        var iconSearch = document.querySelector(".header__icons .header__search svg");
-        if (iconSearch) {
-          iconSearch.style.color = colors[destination.index];
-        }
-        var iconQuestion = document.querySelector(".header__icons .header__icon--question svg");
-        if (iconQuestion) {
-          iconQuestion.style.color = colors[destination.index];
-        }
-        var worldQuestion = document.querySelector(".header__icons .header__icon--world svg");
-        if (worldQuestion) {
-          worldQuestion.style.color = colors[destination.index];
-        }
-        var accountQuestion = document.querySelector(".header__icons .header__icon--account svg");
-        if (accountQuestion) {
-          accountQuestion.style.color = colors[destination.index];
-        }
+        setHeaderColors(colors[destination.index]);
       },
       afterRender: function() {
         console.log("fullPage.js has rendered the page");
@@ -73,6 +31,75 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 });
+document.addEventListener("click", function(event) {
+  var megaMenu = document.querySelector("body.index_cover sticky-header");
+  var isOpen = megaMenu.classList.contains("menu-background-white");
+  var headerItems = document.querySelectorAll("body.index_cover .header__menu-item");
+  var targetInMegaMenu = Array.from(headerItems).some(function(item) {
+    return item.contains(event.target);
+  });
+  var currentSectionIndex = fullpage_api.getActiveSection().index();
+  if (targetInMegaMenu) {
+    if (isOpen) {
+      console.log(`now reset color to color=${colors[currentSectionIndex]}`);
+      setHeaderColors(colors[currentSectionIndex]);
+    } else {
+      console.log(`set color to color=black`);
+      setHeaderColors("black");
+    }
+  } else {
+    console.log(`check in else : isOpen=${isOpen}`);
+    if (!isOpen) {
+      console.log(`[not in megamenu]now reset color to color=${colors[currentSectionIndex]}`);
+      setHeaderColors(colors[currentSectionIndex]);
+    }
+  }
+});
+function setHeaderColors(color) {
+  var logo = document.querySelector(".header__heading-logo-wrapper img");
+  if (logo) {
+    logo.style.color = color;
+    if (color === "white") {
+      logo.src = "//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_2.png?v=1711091451&width=600";
+      logo.srcset = "//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_2.png?v=1711091451&width=90 90w,//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_2.png?v=1711091451&width=135 135w,//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_2.png?v=1711091451&width=135 180w";
+    } else {
+      logo.src = "//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_crop.png?v=1710930827&width=600";
+      logo.srcset = "//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_crop.png?v=1710930827&width=90 90w,//cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_crop.png?v=1710930827&width=135 135w, //cdn.shopify.com/s/files/1/0694/2647/9340/files/SherpaAdventure_crop.png?v=1710930827&width=180 180w";
+    }
+  }
+  var header_heading_spans = document.querySelectorAll(".header__inline-menu .list-menu .header__menu-item span");
+  header_heading_spans.forEach(function(span) {
+    span.style.color = color;
+  });
+  var header_heading_svgs = document.querySelectorAll(".header__inline-menu .list-menu .header__menu-item svg");
+  header_heading_svgs.forEach(function(svg) {
+    svg.style.color = color;
+  });
+  var locationSpan = document.querySelector(".header__icons .disclosure__button span");
+  if (locationSpan) {
+    locationSpan.style.color = color;
+  }
+  var locationSvg = document.querySelector(".header__icons .disclosure__button svg");
+  if (locationSvg) {
+    locationSvg.style.color = color;
+  }
+  var iconSearch = document.querySelector(".header__icons .header__search svg");
+  if (iconSearch) {
+    iconSearch.style.color = color;
+  }
+  var iconQuestion = document.querySelector(".header__icons .header__icon--question svg");
+  if (iconQuestion) {
+    iconQuestion.style.color = color;
+  }
+  var worldQuestion = document.querySelector(".header__icons .header__icon--world svg");
+  if (worldQuestion) {
+    worldQuestion.style.color = color;
+  }
+  var accountQuestion = document.querySelector(".header__icons .header__icon--account svg");
+  if (accountQuestion) {
+    accountQuestion.style.color = color;
+  }
+}
 document.addEventListener("DOMContentLoaded", function() {
   function openPopup() {
     var modal = document.getElementById("popupModal");

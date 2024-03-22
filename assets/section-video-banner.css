@@ -26,7 +26,7 @@
   text-align: center;
 }
 
-.video-banner .video-banner-content h2 {
+.video-banner .video-banner-content .banner__heading {
   margin-top: 100px;
 }
 
