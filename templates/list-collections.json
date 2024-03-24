@@ -98,6 +98,58 @@
         "color_scheme": "scheme-4"
       }
     },
+    "image_banner_EQ38cc": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_cDEKrn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find your favorites",
+            "heading_size": "h1"
+          }
+        },
+        "text_ceMPf8": {
+          "type": "text",
+          "settings": {
+            "text": "Discount on winter collection ending soon",
+            "text_style": "body"
+          }
+        },
+        "buttons_GiQrNJ": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Explore",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cDEKrn",
+        "text_ceMPf8",
+        "buttons_GiQrNJ"
+      ],
+      "custom_css": [
+        ".banner__heading {color: black;}",
+        ".banner__text{color:black;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-flo-maderebner-869258_1_c00483eb-40d0-4225-a4cf-c8ced6e6514d.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-list-collections",
       "settings": {
@@ -156,7 +208,7 @@
       ],
       "custom_css": [
         ".button {padding-left: 0; padding-right: 0;}",
-        "@media screen and (max-width: 450px) {.button {padding-left: 0; padding-right: 0;}}"
+        "@media screen and (max-width: 450px) {.button {padding-left: 0; padding-right: 0; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-cottonbro-studio-9292811.jpg",
@@ -177,6 +229,7 @@
     "slideshow_wifdJ9",
     "featured_collection_ECKUpQ",
     "video_banner_x7raJx",
+    "image_banner_EQ38cc",
     "main",
     "video_banner_fM3MDT",
     "image_banner_pQW6qE"

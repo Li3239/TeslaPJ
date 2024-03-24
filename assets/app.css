@@ -331,20 +331,6 @@ body.index_cover .section {
 @media screen and (max-width: 450px) {
   .list-collections_wrapper .shopify-section .content-container .video-banner-content .banner__buttons {
     justify-content: center;
-    /* .button--primary{
-
-    min-width: 15rem;
-    margin: 10px 10px;
-    padding: 10px 20px;
-    text-decoration: none;
-    }
-    .button--secondary{
-
-    min-width: 12rem;
-    margin: 10px 10px;
-    padding: 10px 20px;
-    text-decoration: none;
-    } */
   }
   .list-collections_wrapper .shopify-section .content-container .video-banner-content .banner__buttons .button {
     width: 15rem;
