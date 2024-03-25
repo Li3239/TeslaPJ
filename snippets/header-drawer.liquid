@@ -45,6 +45,18 @@
                           </button>
                           <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                             {%- for childlink in link.links -%}
+                              {% comment %} start of [if includes "|", to show image] {% endcomment %}
+                              {% if childlink.title contains 'https://' or childlink.title contains 'http://' %}
+                                {% assign img_url = childlink.title | split:'|' %}
+                                <li class="mega-menu-collection-img">
+                                  <a href="/collections/{{ img_url[0] }}">
+                                    <img src="{{ img_url[1] }}" alt="Collection Image">
+                                  </a>
+                                  <h5 class="mega-menu-title">{{ img_url[0] }}</h5>
+                                </li>
+                              {% else %}
+                              {% comment %} end of [if includes "|", to show image] {% endcomment %}
+
                               <li>
                                 {%- if childlink.links == blank -%}
                                   <a
@@ -102,6 +114,8 @@
                                   </details>
                                 {%- endif -%}
                               </li>
+                              {% comment %} of if includes "|", to show image {% endcomment %}
+                              {%- endif -%}
                             {%- endfor -%}
                           </ul>
                         </div>
