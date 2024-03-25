@@ -329,6 +329,19 @@ body.index_cover .section {
 }
 
 @media screen and (max-width: 450px) {
+  .list-collections_wrapper .shopify-section .page-width #popupModal {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: 5%;
+  }
+  .list-collections_wrapper .shopify-section .page-width #popupModal .modal-content {
+    width: 100%;
+    margin: 5% auto;
+  }
+  .list-collections_wrapper .shopify-section .page-width #popupModal .modal-content #countdownTimer {
+    font-size: 29px;
+  }
   .list-collections_wrapper .shopify-section .content-container .video-banner-content .banner__buttons {
     justify-content: center;
   }

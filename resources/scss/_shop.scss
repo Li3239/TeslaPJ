@@ -91,6 +91,22 @@
 @media screen and (max-width: 450px) {
     .list-collections_wrapper{
         .shopify-section{
+            .page-width{
+                #popupModal{
+                    display: flex;
+                    width: 90%;
+                    justify-content: center;
+                    margin: 5%;
+                    .modal-content{
+                        width: 100%;
+                        margin: 5% auto;
+                        #countdownTimer{
+                            font-size: 29px;
+                           
+                        }
+                    }
+                }
+            }
     .content-container {
         .video-banner-content{
             .banner__buttons{
