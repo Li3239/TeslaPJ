@@ -140,7 +140,10 @@ body.list-collections_cover .header__icon--world,
 body.list-collections_cover .header__icon--account,
 body.product_cover .header__icon--question,
 body.product_cover .header__icon--world,
-body.product_cover .header__icon--account {
+body.product_cover .header__icon--account,
+body.search_cover .header__icon--question,
+body.search_cover .header__icon--world,
+body.search_cover .header__icon--account {
   display: none;
 }
 
